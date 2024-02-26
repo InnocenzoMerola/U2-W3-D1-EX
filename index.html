@@ -4,25 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <style>
-      /*  */
-    </style>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1>Inserisci qui i dati del tuo animaletto domestico</h1>
-    <form id="container">
-      <input type="text" class="addName" placeholder="Name" />
+    <div class="center">
+      <h1>Inserisci qui i dati del tuo animaletto domestico</h1>
+      <form id="container">
+        <input type="text" class="addName" placeholder="Name" required />
 
-      <input type="text" class="addOwner" placeholder="Owner's name" />
+        <input type="text" class="addOwner" placeholder="Owner's name" required />
 
-      <input type="text" class="addSpecies" placeholder="Species" />
+        <input type="text" class="addSpecies" placeholder="Species" required />
 
-      <input type="text" class="addBreed" placeholder="Breed" />
+        <input type="text" class="addBreed" placeholder="Breed" required />
 
+        <button type="submit" id="btn">Add</button>
+      </form>
       <ul class="list"></ul>
-      <button type="submit" class="btn">Add</button>
-    </form>
-    <!-- <script src="./index.js"></script> -->
+    </div>
+    <script src="./index.js"></script>
     <script src="./index2.js"></script>
   </body>
 </html>

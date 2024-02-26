@@ -1,0 +1,29 @@
+.center {
+  text-align: center;
+  margin-block: 5rem;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  padding-inline: 3rem;
+}
+
+.list {
+  list-style: none;
+}
+
+.trashBtn {
+  margin-left: 2rem;
+  border: 1px solid black;
+  padding-top: 0.25rem;
+  background-color: red;
+  color: white;
+}
+
+li {
+  margin-block: 0.5rem;
+}

@@ -36,14 +36,6 @@ const paolo = new User("Paolo", "Giuliani", 45, "Torino");
 const alessia = new User("Alessia", "Preti", 18, "Bologna");
 const francesca = new User("Francesca", "Sebastiani", 21, "Rome");
 
-// console.log(marco);
-// console.log(luca);
-// console.log(innocenzo);
-// console.log(michele);
-// console.log(paolo);
-// console.log(alessia);
-// console.log(francesca);
-
 console.log(User.ageCompair(marco, luca));
 console.log(User.ageCompair(marco, alessia));
 console.log(User.ageCompair(innocenzo, francesca));
